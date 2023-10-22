@@ -6,17 +6,32 @@ import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
 
-public class MDNSResolver implements Closeable {
-	InetAddress mdnsIP = InetAddress.getByName("224.0.0.251");
-	private int mdnsPort = 5353;
+public class LLMNRResolver implements Closeable {
+
+    InetAddress llmnrIP = InetAddress.getByName("224.0.0.252");
+	private int llmnrPort = 5355;
 	MulticastSocket socket = new MulticastSocket();
 
-	public MDNSResolver(int timeout) throws IOException {
+    public LLMNRResolver(int timeout) throws IOException {
 		socket.setSoTimeout(timeout);
 		socket.setTimeToLive(1);
 	}
+    
+    String createPTRQuery(byte[] addr) {
+      return (addr[3]&0xFF) + "." + (addr[2]&0xFF) + "." + (addr[1]&0xFF) + "." + (addr[0]&0xFF) + ".in-addr.arpa";
+    }
+   
+    byte[] dnsRequest(int id, String name) throws IOException {
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        DataOutputStream out = new DataOutputStream(baos);
+        out.writeShort(id);
+        out.write(new byte[] {0, 0, 0, 1, 0, 0, 0, 0, 0, 0});
+        writeName(out, name);
+        out.write(new byte[] {0, 0xc, 0, 1});
+        return baos.toByteArray();
+    }
 
-	void writeName(DataOutputStream out, String name) throws IOException {
+    void writeName(DataOutputStream out, String name) throws IOException {
 		int s = 0, e;
 		while ((e = name.indexOf('.', s)) != -1) {
 			out.writeByte(e - s);
@@ -28,7 +43,7 @@ public class MDNSResolver implements Closeable {
 		out.writeByte(0);
 	}
 
-	String decodeName(byte[] data, int offset, int length) {
+    String decodeName(byte[] data, int offset, int length) {
 		StringBuilder s = new StringBuilder(length);
 		for (int i = offset; i < offset + length; i++) {
 			byte len = data[i];
@@ -40,26 +55,11 @@ public class MDNSResolver implements Closeable {
 		return s.toString();
 	}
 
-	byte[] dnsRequest(int id, String name) throws IOException {
-		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		DataOutputStream out = new DataOutputStream(baos);
-		out.writeShort(id);
-		out.write(new byte[] {0, 0, 0, 1, 0, 0, 0, 0, 0, 0});
-		writeName(out, name);
-		out.write(new byte[] {0, 0xc, 0, 1});
-		return baos.toByteArray();
-	}
-
-	String reverseName(byte[] addr) {
-		// note: only IPv4 is supported here
-		return (addr[3]&0xFF) + "." + (addr[2]&0xFF) + "." + (addr[1]&0xFF) + "." + (addr[0]&0xFF) + ".in-addr.arpa";
-	}
-
-	public String resolve(InetAddress ip) throws IOException {
+    public String resolve(InetAddress ip) throws IOException {
 		byte[] addr = ip.getAddress();
 		int requestId = addr[2] * 0xFF + addr[3];
-		byte[] request = dnsRequest(requestId, reverseName(addr));
-		socket.send(new DatagramPacket(request, request.length, mdnsIP, mdnsPort));
+		byte[] request = dnsRequest(requestId, createPTRQuery(addr));
+		socket.send(new DatagramPacket(request, request.length, llmnrIP, llmnrPort));
 
 		DatagramPacket respPacket = new DatagramPacket(new byte[512], 512);
 		socket.receive(respPacket);
@@ -69,8 +69,8 @@ public class MDNSResolver implements Closeable {
 		int offset = (numQueries == 0 ? 12 : request.length) + 2 + 2 + 2 + 4 + 2;
 		return decodeName(response, offset, respPacket.getLength() - offset);
 	}
-
-	public void close() {
+	
+    public void close() {
 		socket.close();
 	}
 }

@@ -5,9 +5,11 @@
 mDNS & NBNS Hostname Resolver is a Java-based utility designed to discover and resolve hostnames within local networks. Utilizing both mDNS (Multicast DNS) and NBNS (NetBIOS Name Service) protocols, this tool provides a flexible and efficient approach to identify devices and services on local networks.
 
 ## Features
-- **mDNS Resolving**: Enables hostname resolution for devices using the Multicast DNS protocol. Common in many home and corporate networks, mDNS is particularly prevalent in devices like printers, smart TVs, and IoT devices.
+- **mDNS Resolving**: Enables hostname resolution for devices using the Multicast DNS protocol, which works upon UDP port number 5353, and uses the 224.0.0.251 multicast ip address.  Commonly used in many home and corporate networks, mDNS is particularly prevalent in devices like printers, smart TVs, and IoT devices.
 
-- **NBNS Resolving**: Efficiently uncovers hostnames for devices leveraging the NetBIOS Name Service protocol. This is typically found in older Windows systems and some SMB devices.
+- **LLMNR Resolving**: Link-local Multicast Name Resolution (LLMNR) is also used for hostname resolution, which works upon UDP port number 5355, and uses 224.0.0.252 multicast ip address. It is included in Windows devices and is also implemented by systemd-resolved on Linux.
+
+- **NBNS Resolving**: Efficiently uncovers hostnames for devices leveraging the NetBIOS Name Service protocol. This is typically found in older Windows systems and some SMB devices. It operates upon UDP port number 137, and it is widely used upon windows networks.
 
 - **Flexible Input Options**: Supports two primary forms of network range inputs:
     - Network Part (e.g., 192.168.1.) followed by the IP range (e.g., 1-254)
