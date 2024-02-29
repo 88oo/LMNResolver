@@ -1,8 +1,7 @@
-# Host-Discovery-Tool
+# LMNResolver
 
 ## Description
-
-Host-Discovery-Tool is a Java-based utility designed to discover and resolve hostnames within local networks. Utilizing both mDNS (Multicast DNS), LLMNR (Link-Local Multicast Name Resolution) and NBNS (NetBIOS Name Service) protocols, this tool provides a flexible and efficient approach to identify devices and services on local networks.
+LMNResolver is a Java-based utility designed to discover and resolve hostnames within local networks. Utilizing the host discovery protocols like LLMNR (Link-Local Multicast Name Resolution), mDNS (Multicast DNS) and NBNS (NetBIOS Name Service), this tool provides an efficient approach to identify devices and their hostnames in the local networks.
 
 ## Features
 - **mDNS Resolving**: Enables hostname resolution for devices using the Multicast DNS protocol, which works upon UDP port number 5353, and uses the 224.0.0.251 multicast ip address.  Commonly used in many home and corporate networks, mDNS is particularly prevalent in devices like printers, smart TVs, and IoT devices.
@@ -20,8 +19,8 @@ Host-Discovery-Tool is a Java-based utility designed to discover and resolve hos
 #### 1. Clone the Repository:
 
 ```
-$ git clone https://github.com/Executioner666/Host-Discovery-Tool.git
-$ cd Host-Discovery-Tool/
+$ git clone https://github.com/88oo/LMNResolver.git
+$ cd LMNResolver/
 ```
 
 #### 2. Compile the Source Code:

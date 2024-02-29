@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Select input type: ");
         System.out.println("1: Network Prefix");
         System.out.println("2: Subnet CIDR");
+        System.out.println("3: Network Interface");
         
         int choice = scanner.nextInt();
         scanner.nextLine();  // Consume newline left-over
@@ -34,6 +35,14 @@ public class Main {
                 String cidr = scanner.nextLine();
                 ipAddresses = getIPsFromCIDR(cidr);
                 break;
+            
+            case 3:
+                System.out.print("Enter interface name: ");
+                String interfaceName = scanner.nextLine();
+                List<String> interfaceIPs = NetworkInterfaceInfo.getInterfaceIPs(interfaceName);
+                ipAddresses.addAll(interfaceIPs);
+                break;
+            
 
             default:
                 System.out.println("Invalid choice!");
@@ -42,6 +51,8 @@ public class Main {
         }
 
         scanner.close();
+
+        //NetworkInterfaceInfo netinfo = new NetworkInterfaceInfo();
 
         HostnameFetcher fetcher = new HostnameFetcher();
 
