@@ -1,7 +1,7 @@
 import java.net.*;
 import java.util.Enumeration;
 
-public class NetworkInfo {
+public class GetAllInterfaces {
     public static void main(String[] args) {
         try {
             Enumeration<NetworkInterface> networkInterfaces = NetworkInterface.getNetworkInterfaces();

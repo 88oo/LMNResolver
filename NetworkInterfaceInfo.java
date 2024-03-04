@@ -11,7 +11,7 @@ public class NetworkInterfaceInfo {
             NetworkInterface networkInterface = NetworkInterface.getByName(interfaceName);
             if (networkInterface == null) {
                 System.out.println("Interface not found.");
-                System.out.println("Usage: java NetworkInterfaceInfo <interface_name>");
+                System.out.println("Usage: Enter interface name: <interface_name>");
                 return ipAddresses;
             }
 
