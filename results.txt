@@ -1,0 +1,261 @@
+Select input type: 
+1: Network Prefix
+2: Subnet CIDR
+1
+Enter Network Prefix (e.g., 172.19.13.): 172.19.14.
+Enter start: 1
+Enter end: 254
+Unable to resolve hostname for IP: 172.19.14.1
+Unable to resolve hostname for IP: 172.19.14.2
+Unable to resolve hostname for IP: 172.19.14.3
+Unable to resolve hostname for IP: 172.19.14.4
+Unable to resolve hostname for IP: 172.19.14.5
+Unable to resolve hostname for IP: 172.19.14.6
+Unable to resolve hostname for IP: 172.19.14.7
+Unable to resolve hostname for IP: 172.19.14.8
+Unable to resolve hostname for IP: 172.19.14.9
+Unable to resolve hostname for IP: 172.19.14.10
+Unable to resolve hostname for IP: 172.19.14.11
+Unable to resolve hostname for IP: 172.19.14.12
+Unable to resolve hostname for IP: 172.19.14.13
+Unable to resolve hostname for IP: 172.19.14.14
+Unable to resolve hostname for IP: 172.19.14.15
+Unable to resolve hostname for IP: 172.19.14.16
+Unable to resolve hostname for IP: 172.19.14.17
+Unable to resolve hostname for IP: 172.19.14.18
+Unable to resolve hostname for IP: 172.19.14.19
+IP Address: 172.19.14.20 -> Hostname: DESKTOP-QGAVTAN
+IP Address: 172.19.14.21 -> Hostname: Vinays-MacBook-Air.local
+Unable to resolve hostname for IP: 172.19.14.22
+Unable to resolve hostname for IP: 172.19.14.23
+Unable to resolve hostname for IP: 172.19.14.24
+Unable to resolve hostname for IP: 172.19.14.25
+Unable to resolve hostname for IP: 172.19.14.26
+Unable to resolve hostname for IP: 172.19.14.27
+Unable to resolve hostname for IP: 172.19.14.28
+Unable to resolve hostname for IP: 172.19.14.29
+Unable to resolve hostname for IP: 172.19.14.30
+Unable to resolve hostname for IP: 172.19.14.31
+Unable to resolve hostname for IP: 172.19.14.32
+Unable to resolve hostname for IP: 172.19.14.33
+Unable to resolve hostname for IP: 172.19.14.34
+Unable to resolve hostname for IP: 172.19.14.35
+Unable to resolve hostname for IP: 172.19.14.36
+Unable to resolve hostname for IP: 172.19.14.37
+Unable to resolve hostname for IP: 172.19.14.38
+Unable to resolve hostname for IP: 172.19.14.39
+Unable to resolve hostname for IP: 172.19.14.40
+Unable to resolve hostname for IP: 172.19.14.41
+IP Address: 172.19.14.42 -> Hostname: LAPTOP-IBJ51NFA
+Unable to resolve hostname for IP: 172.19.14.43
+Unable to resolve hostname for IP: 172.19.14.44
+Unable to resolve hostname for IP: 172.19.14.45
+Unable to resolve hostname for IP: 172.19.14.46
+Unable to resolve hostname for IP: 172.19.14.47
+Unable to resolve hostname for IP: 172.19.14.48
+Unable to resolve hostname for IP: 172.19.14.49
+Unable to resolve hostname for IP: 172.19.14.50
+Unable to resolve hostname for IP: 172.19.14.51
+Unable to resolve hostname for IP: 172.19.14.52
+Unable to resolve hostname for IP: 172.19.14.53
+Unable to resolve hostname for IP: 172.19.14.54
+Unable to resolve hostname for IP: 172.19.14.55
+Unable to resolve hostname for IP: 172.19.14.56
+Unable to resolve hostname for IP: 172.19.14.57
+Unable to resolve hostname for IP: 172.19.14.58
+Unable to resolve hostname for IP: 172.19.14.59
+Unable to resolve hostname for IP: 172.19.14.60
+Unable to resolve hostname for IP: 172.19.14.61
+Unable to resolve hostname for IP: 172.19.14.62
+Unable to resolve hostname for IP: 172.19.14.63
+Unable to resolve hostname for IP: 172.19.14.64
+IP Address: 172.19.14.65 -> Hostname: DESKTOP-CKAG680.local
+Unable to resolve hostname for IP: 172.19.14.66
+Unable to resolve hostname for IP: 172.19.14.67
+Unable to resolve hostname for IP: 172.19.14.68
+Unable to resolve hostname for IP: 172.19.14.69
+Unable to resolve hostname for IP: 172.19.14.70
+Unable to resolve hostname for IP: 172.19.14.71
+Unable to resolve hostname for IP: 172.19.14.72
+Unable to resolve hostname for IP: 172.19.14.73
+Unable to resolve hostname for IP: 172.19.14.74
+Unable to resolve hostname for IP: 172.19.14.75
+Unable to resolve hostname for IP: 172.19.14.76
+Unable to resolve hostname for IP: 172.19.14.77
+Unable to resolve hostname for IP: 172.19.14.78
+Unable to resolve hostname for IP: 172.19.14.79
+Unable to resolve hostname for IP: 172.19.14.80
+Unable to resolve hostname for IP: 172.19.14.81
+Unable to resolve hostname for IP: 172.19.14.82
+Unable to resolve hostname for IP: 172.19.14.83
+Unable to resolve hostname for IP: 172.19.14.84
+Unable to resolve hostname for IP: 172.19.14.85
+Unable to resolve hostname for IP: 172.19.14.86
+Unable to resolve hostname for IP: 172.19.14.87
+Unable to resolve hostname for IP: 172.19.14.88
+Unable to resolve hostname for IP: 172.19.14.89
+Unable to resolve hostname for IP: 172.19.14.90
+Unable to resolve hostname for IP: 172.19.14.91
+Unable to resolve hostname for IP: 172.19.14.92
+Unable to resolve hostname for IP: 172.19.14.93
+Unable to resolve hostname for IP: 172.19.14.94
+Unable to resolve hostname for IP: 172.19.14.95
+Unable to resolve hostname for IP: 172.19.14.96
+Unable to resolve hostname for IP: 172.19.14.97
+Unable to resolve hostname for IP: 172.19.14.98
+Unable to resolve hostname for IP: 172.19.14.99
+IP Address: 172.19.14.100 -> Hostname: My-Rog.local
+IP Address: 172.19.14.101 -> Hostname: LAPTOP-MBCNS37F.local
+Unable to resolve hostname for IP: 172.19.14.102
+IP Address: 172.19.14.103 -> Hostname: LAPTOP-AJA2MC8E.local
+IP Address: 172.19.14.104 -> Hostname: Bhole.local
+Unable to resolve hostname for IP: 172.19.14.105
+Unable to resolve hostname for IP: 172.19.14.106
+IP Address: 172.19.14.107 -> Hostname: LAPTOP-T28B9QK5
+IP Address: 172.19.14.108 -> Hostname: WORKGROUP
+IP Address: 172.19.14.109 -> Hostname: nagumalli-vinay.local
+IP Address: 172.19.14.110 -> Hostname: mahesh-Aspire-A715-41G.local
+IP Address: 172.19.14.111 -> Hostname: DESKTOP-F0QHDB4
+Unable to resolve hostname for IP: 172.19.14.112
+IP Address: 172.19.14.113 -> Hostname: LAPTOP-DLSRLTOJ
+Unable to resolve hostname for IP: 172.19.14.114
+Unable to resolve hostname for IP: 172.19.14.115
+Unable to resolve hostname for IP: 172.19.14.116
+Unable to resolve hostname for IP: 172.19.14.117
+Unable to resolve hostname for IP: 172.19.14.118
+Unable to resolve hostname for IP: 172.19.14.119
+Unable to resolve hostname for IP: 172.19.14.120
+IP Address: 172.19.14.121 -> Hostname: MD_SHAHEER
+Unable to resolve hostname for IP: 172.19.14.122
+IP Address: 172.19.14.123 -> Hostname: CHIGGIs-MacBook-Air.local
+Unable to resolve hostname for IP: 172.19.14.124
+Unable to resolve hostname for IP: 172.19.14.125
+IP Address: 172.19.14.126 -> Hostname: LAPTOP-EN2U1789
+Unable to resolve hostname for IP: 172.19.14.127
+IP Address: 172.19.14.128 -> Hostname: Dell-Inspiron-15.local
+Unable to resolve hostname for IP: 172.19.14.129
+IP Address: 172.19.14.130 -> Hostname: LAPTOP-54RUNH3B.local
+Unable to resolve hostname for IP: 172.19.14.131
+Unable to resolve hostname for IP: 172.19.14.132
+IP Address: 172.19.14.133 -> Hostname: DESKTOP-MLCU30G.local
+IP Address: 172.19.14.134 -> Hostname: Game-Changer.local
+IP Address: 172.19.14.135 -> Hostname: PLVBN.local
+IP Address: 172.19.14.136 -> Hostname: DESKTOP-LA5M40I.local
+IP Address: 172.19.14.137 -> Hostname: LAPTOP-KJUCTII1.local
+IP Address: 172.19.14.138 -> Hostname: Adityas-MacBook-Air-3.local
+Unable to resolve hostname for IP: 172.19.14.139
+IP Address: 172.19.14.140 -> Hostname: GAURAV_LENOVO
+IP Address: 172.19.14.141 -> Hostname: WORKGROUP
+Unable to resolve hostname for IP: 172.19.14.142
+Unable to resolve hostname for IP: 172.19.14.143
+IP Address: 172.19.14.144 -> Hostname: Anshuls-MacBook-Air-2.local
+IP Address: 172.19.14.145 -> Hostname: LAPTOP-T9LNVQ23.local
+Unable to resolve hostname for IP: 172.19.14.146
+Unable to resolve hostname for IP: 172.19.14.147
+IP Address: 172.19.14.148 -> Hostname: DESKTOP-6L46NLI
+IP Address: 172.19.14.149 -> Hostname: ASHISH-256
+IP Address: 172.19.14.150 -> Hostname: Nikunjs-MacBook-Pro.local
+IP Address: 172.19.14.151 -> Hostname: Saranshs-MacBook-Pro.local
+Unable to resolve hostname for IP: 172.19.14.152
+Unable to resolve hostname for IP: 172.19.14.153
+IP Address: 172.19.14.154 -> Hostname: MacBook-Air-2.local
+Unable to resolve hostname for IP: 172.19.14.155
+IP Address: 172.19.14.156 -> Hostname: LAPTOP-40N83N2V.local
+Unable to resolve hostname for IP: 172.19.14.157
+IP Address: 172.19.14.158 -> Hostname: VaibhavPC.local
+IP Address: 172.19.14.159 -> Hostname: LAPTOP-59R7EVOA.local
+Unable to resolve hostname for IP: 172.19.14.160
+Unable to resolve hostname for IP: 172.19.14.161
+Unable to resolve hostname for IP: 172.19.14.162
+IP Address: 172.19.14.163 -> Hostname: UJJWAL
+Unable to resolve hostname for IP: 172.19.14.164
+IP Address: 172.19.14.165 -> Hostname: WORKGROUP
+Unable to resolve hostname for IP: 172.19.14.166
+IP Address: 172.19.14.167 -> Hostname: satwik.local
+Unable to resolve hostname for IP: 172.19.14.168
+Unable to resolve hostname for IP: 172.19.14.169
+Unable to resolve hostname for IP: 172.19.14.170
+IP Address: 172.19.14.171 -> Hostname: Vasu-Mittals-Macbook-Pro.local
+IP Address: 172.19.14.172 -> Hostname: MacBook-Pro-2.local
+IP Address: 172.19.14.173 -> Hostname: DESKTOP-SD6TMQQ.local
+IP Address: 172.19.14.174 -> Hostname: endurance.local
+IP Address: 172.19.14.175 -> Hostname: Anshuls-MacBook-Air.local
+IP Address: 172.19.14.176 -> Hostname: LAPTOP-BU55BQ2B.local
+Unable to resolve hostname for IP: 172.19.14.177
+IP Address: 172.19.14.178 -> Hostname: LAPTOP-SQEAIOE2.local
+IP Address: 172.19.14.179 -> Hostname: MSI-2.local
+Unable to resolve hostname for IP: 172.19.14.180
+Unable to resolve hostname for IP: 172.19.14.181
+IP Address: 172.19.14.182 -> Hostname: LAPTOP-BEC9CO5B
+IP Address: 172.19.14.183 -> Hostname: RIBHAV.local
+IP Address: 172.19.14.184 -> Hostname: SIDHANT
+Unable to resolve hostname for IP: 172.19.14.185
+Unable to resolve hostname for IP: 172.19.14.186
+IP Address: 172.19.14.187 -> Hostname: LAPTOP-6GCVGQJF.local
+Unable to resolve hostname for IP: 172.19.14.188
+IP Address: 172.19.14.189 -> Hostname: Ayushs-MacBook-Air.local
+IP Address: 172.19.14.190 -> Hostname: MACBOOKAIR-BD52
+IP Address: 172.19.14.191 -> Hostname: LAPTOP-ANF0UFSG
+Unable to resolve hostname for IP: 172.19.14.192
+Unable to resolve hostname for IP: 172.19.14.193
+IP Address: 172.19.14.194 -> Hostname: Yash-Varvardhan.local
+Unable to resolve hostname for IP: 172.19.14.195
+IP Address: 172.19.14.196 -> Hostname: LAPTOP-ROQV7M4G.local
+Unable to resolve hostname for IP: 172.19.14.197
+IP Address: 172.19.14.198 -> Hostname: ErHemanshShridhar.local
+Unable to resolve hostname for IP: 172.19.14.199
+IP Address: 172.19.14.200 -> Hostname: LAPTOP-H1CJD6JR.local
+Unable to resolve hostname for IP: 172.19.14.201
+Unable to resolve hostname for IP: 172.19.14.202
+Unable to resolve hostname for IP: 172.19.14.203
+Unable to resolve hostname for IP: 172.19.14.204
+Unable to resolve hostname for IP: 172.19.14.205
+Unable to resolve hostname for IP: 172.19.14.206
+Unable to resolve hostname for IP: 172.19.14.207
+Unable to resolve hostname for IP: 172.19.14.208
+Unable to resolve hostname for IP: 172.19.14.209
+Unable to resolve hostname for IP: 172.19.14.210
+Unable to resolve hostname for IP: 172.19.14.211
+Unable to resolve hostname for IP: 172.19.14.212
+Unable to resolve hostname for IP: 172.19.14.213
+Unable to resolve hostname for IP: 172.19.14.214
+Unable to resolve hostname for IP: 172.19.14.215
+Unable to resolve hostname for IP: 172.19.14.216
+Unable to resolve hostname for IP: 172.19.14.217
+Unable to resolve hostname for IP: 172.19.14.218
+Unable to resolve hostname for IP: 172.19.14.219
+Unable to resolve hostname for IP: 172.19.14.220
+Unable to resolve hostname for IP: 172.19.14.221
+Unable to resolve hostname for IP: 172.19.14.222
+Unable to resolve hostname for IP: 172.19.14.223
+Unable to resolve hostname for IP: 172.19.14.224
+Unable to resolve hostname for IP: 172.19.14.225
+Unable to resolve hostname for IP: 172.19.14.226
+Unable to resolve hostname for IP: 172.19.14.227
+IP Address: 172.19.14.228 -> Hostname: PSC
+Unable to resolve hostname for IP: 172.19.14.229
+Unable to resolve hostname for IP: 172.19.14.230
+Unable to resolve hostname for IP: 172.19.14.231
+Unable to resolve hostname for IP: 172.19.14.232
+Unable to resolve hostname for IP: 172.19.14.233
+Unable to resolve hostname for IP: 172.19.14.234
+Unable to resolve hostname for IP: 172.19.14.235
+Unable to resolve hostname for IP: 172.19.14.236
+Unable to resolve hostname for IP: 172.19.14.237
+Unable to resolve hostname for IP: 172.19.14.238
+Unable to resolve hostname for IP: 172.19.14.239
+Unable to resolve hostname for IP: 172.19.14.240
+Unable to resolve hostname for IP: 172.19.14.241
+Unable to resolve hostname for IP: 172.19.14.242
+Unable to resolve hostname for IP: 172.19.14.243
+Unable to resolve hostname for IP: 172.19.14.244
+Unable to resolve hostname for IP: 172.19.14.245
+Unable to resolve hostname for IP: 172.19.14.246
+IP Address: 172.19.14.247 -> Hostname: __MSBROWSE__
+Unable to resolve hostname for IP: 172.19.14.248
+Unable to resolve hostname for IP: 172.19.14.249
+Unable to resolve hostname for IP: 172.19.14.250
+Unable to resolve hostname for IP: 172.19.14.251
+Unable to resolve hostname for IP: 172.19.14.252
+Unable to resolve hostname for IP: 172.19.14.253
+Unable to resolve hostname for IP: 172.19.14.254
